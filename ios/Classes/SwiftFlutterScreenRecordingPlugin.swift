@@ -144,7 +144,7 @@ var myResult: FlutterResult?
                         if(self.recordAudio){
 //                            print("Writing audio....");
                             if self.audioInput?.isReadyForMoreMediaData == true {
-                                print("starting audio....");
+//                              print("starting audio....");
                                 if self.audioInput?.append(cmSampleBuffer) == false {
                                         print("Problems writing audio")
                                 }
